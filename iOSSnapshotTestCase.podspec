@@ -10,10 +10,10 @@ Pod::Spec.new do |s|
                     stored in your source code repository and fails the test if the
                     two images don't match.
                    DESC
-  s.homepage     = "git@github.com:pt2277/ios-snapshot-test-case.git"
+  s.homepage     = "https://github.com/pt2277/ios-snapshot-test-case"
   s.license      = 'MIT'
   s.author       = 'Uber'
-  s.source       = { :git => "https://github.com/uber/ios-snapshot-test-case.git",
+  s.source       = { :git => "git@github.com:pt2277/ios-snapshot-test-case.git",
                      :tag => s.version.to_s }
   s.ios.deployment_target  = '10.0'
   s.tvos.deployment_target = '9.0'
