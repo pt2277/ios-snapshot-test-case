@@ -9,6 +9,10 @@ Pod::Spec.new do |s|
                     of its contents. It compares this snapshot to a "reference image"
                     stored in your source code repository and fails the test if the
                     two images don't match.
+
+		    This version exposes the underlying APIs for image utilities like UIImage+Compare, UIImage+Diff, and UIImage+Snapshot.
+
+
                    DESC
   s.homepage     = "https://github.com/pt2277/ios-snapshot-test-case"
   s.license      = 'MIT'
